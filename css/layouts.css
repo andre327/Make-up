@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.conter-nav-bar{
+    background:rgb(20,20,20, .7);
+    position: absolute;
+    width: 100%;
+    height: 73px;
+   margin-top: .5 em;
+   position: fixed;
+   top: 0;
+   left: 0;
+  
+ 
+}
+.img-logo{
+    float: left;
+    margin: 0.0em;
+}
+
+#nav-bar{
+    background:rgb(20,20,20, .7);
+    color: white;
+    font-size: 1.5 em;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+   
+   
+
+}
+.item-menu{
+    padding: 10px;
+    display: inline-block ;
+}
+
+
+.titulo-principal{
+    margin: 15px;
+}
+.conter-main{
+    margin-top: 20px;
+  /*  background-color: grey;*/
+    width: 100%;
+    height: 700px;
+
+}
+.conter-1{
+  /*  background-color:goldenrod ;*/
+    vertical-align: top;
+    
+
+}
+.conter-2{
+   /* background-color: darkcyan;*/
+    vertical-align: top;
+   
+}
+.conter-3{
+    /*background-color: cadetblue;*/
+    vertical-align: top;
+}
+.conter-4{
+    /*background-color: cadetblue;*/
+    vertical-align: top;
+}
+.conter-1, .conter-2, .conter-3, .conter-4{
+    width: 19.4%;
+    height: 600px;
+    display: inline-block;
+    margin-left: 4%;
+    vertical-align: top;
+
+}
+.conter-5{
+    float: left;
+   /* background-color: cadetblue;*/
+
+}
+.conter-6{
+    float: left;
+   /* background-color: darkcyan;*/
+
+}
+.conter-7{
+    float: left;
+  /*  background-color: darksalmon;*/
+
+}
+.conter-8{
+    float: left;
+   /* background-color: darkseagreen;*/
+
+}
+.conter-5, .conter-6, .conter-7, .conter-8{
+    width: 20%;
+    height: 600px;
+    margin-left:4% ;
+
+
+
+}
+h1, h2{
+    text-align: center;
+
+}
+img{
+    display: block;
+    margin: 15px auto;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#side-header{
+    position: fixed;
+    /*top:0;*/
+    width: 200px;
+    height: 100%;
+}
+.contenedor-body{
+    margin-left: 250px;
+}
+.main-content{
+    margin-left: 240px;
+    margin-right: 20px;
+}
+.menu-box{
+    /*position: fixed;*/
+    top: 0;
+    width: 160px;
+    margin-left: 20px;
+    height: 60px;
+    border-bottom: 1px solid rgb(96, 96, 96,.8)
+}
+.menu-box-invisible{
+    width: 160px;
+    margin-left: 20px;
+    visibility: hidden;
+    height: 17px;
+}
+.bt-menu{
+    font-size: 1.9em;
+    position: fixed;
+    text-align: left;
+    padding: 15px 0 15px 20px;
+    width: 200px;
+    display: block;
+    cursor: pointer;
+    right: 0;
+    color: white;
+}
+nav{
+ 
+    position: fixed;
+    height: 560px;
+    /* height: calc(100px - 60px); */
+}
+ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: left;
+    list-style: none;
+    overflow-y: scroll;
+    
+  
+}
+li{
+    border-radius: 3px;
+    margin: 2px;
+    background-color: rgb(20,20,20, .7);
+}
+a{
+    display: block;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 0.95em;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    background: rgba(220, 220, 220, 0.363);
+    border-radius: 3px;
+}
+@media only screen and (max-width: 600px){
+    #side-header{
+        width: 120px;
+        overflow: hidden;
+    }
+    h1{
+        margin-top: 60px;
+    }
+    .main-content{
+        margin-left: 30px;
+    }
+    nav{
+      /*  background: whitesmoke;*/
+        /* width: 100px; */
+        position: fixed;
+        /* right: 100px; */
+        /* font-size: 1.4em; */
+    }
+    ul{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    header.mostrarHeader{
+        left: 0;
+    }
+    .menu-box{
+        width: 100px;
+        background-color: white;
+        height: 60px;
+    }
+    .menu-box-invisible{
+        width: 100px;
+        background-color: white;
+        height: 60px;
+    }
+    nav.mostrarNav{
+        left: 0;
+    }
+    a{
+        border-top: 1px solid rgb(96, 96, 96,.8);
+        padding: 20px;
+        margin: 0;
+    }
+    a:hover{
+        border-radius: 0;
+    }
+}
+
+.conter-nav-bar{
+  
+    position: absolute;
+    width: 100%;
+    height: 73px;
+    margin-top: .5 em;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+ 
+}
+.img-logo{
+    float: left;
+    margin: 0.0em;
+}
+
+#nav-bar{
+    background:white;
+    color: white;
+    font-size: 1.5 em;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+   
+   
+
+}
+.item-menu{
+    padding: 10px;
+    display: inline-block ;
+}
+
+.titulo-principal{
+    margin: 15px;
+   
+}
+.titulo-ventas{
+    margin: 15px;
+}
+.titulo-contactenos{
+    margin: 15px;
+}
+.titulo-requerimiento{
+    margin: 15px;
+}
+
+h1, h2{
+    text-align: center;
+   
+}
+h1{
+    color: white;
+   
+    font-size:3em;
+}
+img{
+    margin: 0 auto 0 auto;
+    display: block;
+}
+p{
+    
+    text-align: center;
+    font-family:  'cinzel', cursive;
+}
+h2.font-cinzel {
+   font-family:  'Akaya Telivigala', cursive;
+  
+}
+h2.fonts-rocknroll{
+font-family: 'rocknroll-one', Arial, Helvetica, sans-serif;
+font-size: 3em;
+}
+.fuente-roboto{
+    font-family:'Roboto', sans-serif;
+    font-size:  4em;
+}
+.fuente-negrita{
+    font-weight: bold;
+
+}
+.fuente-italica{
+    font-size: 32pt;
+    font-style: italic;
+}
+span.resaltado{
+    font-size: 3em;
+    color: crimson;
+    font-weight: bold;
+    font-family: 'roboto', serif;
+    
+}
+.fuente-cotizar{
+    color: darkblue;
+    font-size: medium;
+    text-align: center;
+}
+
+/* rocknroll-one-regular - latin */
+@font-face {
+    font-family: 'RocknRoll One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rocknroll-one-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rocknroll-one-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rocknroll-one-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rocknroll-one-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rocknroll-one-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rocknroll-one-v1-latin-regular.svg#RocknRollOne') format('svg'); /* Legacy iOS */
+  }
+
+  span.descuento{
+    font-size: 3em;
+    color:rgb(165, 173, 173);
+    font-weight: bold;
+    font-family: 'roboto', serif; 
+  }
+  img{
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      padding: 3 em;
+
+  }
+ 
+  p.img-tar{
+    text-align: center;
+    color:rgb(165, 173, 173);
+    font-size: 25px;
+    font-style: normal;
+    line-height:0.2em ;
+} 
+  
+
+  .box-cont1{
+   background: white;
+   width: 400px;
+   height: 350px;
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 10px;
+  
+ 
+
+  }
+  .box-cont2{
+    background: white;
+    
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+  .box-cont3{
+      background: white;
+      width: 400px;
+      height: 350px;
+      display: inline-block;
+      vertical-align: top;
+   
+
+  }
+
+  .box-cont4{
+      background: white;
+      width: 400px;
+      height: 350px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 3px auto;
+      margin-left: 10px;
+      
+
+  }
+
+  .box-cont5{
+      background:white;
+      width: 400px;
+      height: 350px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 3px auto;
+    
+
+  }
+  p{
+      font-size: 1.8 em;
+      text-align: center;
+
+  }
+
+   
+  div.main-conter{
+      display: inline-block;
+      margin: 20px auto;
+
+  }
+ 

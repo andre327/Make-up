@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/li.css">
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <div class="titulo-contactenos">
+        <title>Contáctenos </title>
+    </div>
+</head>
+<body>
+    <div class="conter-nav-bar">
+        <img class="img-logo" src="img/make.png"  width="50" height="80" alt="logo">
+    
+        <ul id="nav-bar">
+            <li> <a href="index.html">Inicio</a></li>
+            <li><a href="productos.html"> Productos</a></li>
+            <li><a href="descuentos.html"> Descuentos</a></li>
+            <li><a href="contactenos.html"> Contactenos</a></li>
+            <li><a href="tablas.html"> Tablas</a></li>
+            <li><a href="requerimientos.html">Formulario</a></li>
+            <li><a href="layouts.html">layouts</a></li>
+            <li><a href="background.html">background</a></li>
+            <li> <a href="menu-vertical.html">Menú vertical</a> </li>
+            <li> <a href="menu-horizontal.html">Menú horizontal</a></li>
+            <li> <a href="menu_horizontal_vertical.html">Menú horizontal vertical</a></li>
+
+            
+        </ul>
+    </div>
+
+<br><br><br><br>
+
+    <h1 class="center">Contáctenos</h1>
+    <form action="registrar-info.php" method="get">
+        <fieldset>
+            <legend class="bordes">Ingrese  Información</legend>
+        Ingrese su nombres <br>
+        <input type="text" class="bordes" name="nombres" size="60" placeholder="Ingrese su Nombre">
+        <br><br>
+        Ingrese sus Apellidos <br>
+        <input type="text" class="bordes" name="apellidos" size="60" placeholder="ingrese sus Apellidos" >
+         <br><br>
+        Ingrese su pregunta <br>
+        <textarea name="pregunta" class="bordes" cols="60" rows="6"></textarea><br><br>
+        Tipo de documento <br>
+        <input type="radio" name="tipo de documento" value="t.i">T.I<br>
+        <input type="radio" name="tipo de documento" value="c.c">C.C<br>
+        <input type="radio" name="tipo de documento" value="c.e">C.E<br><br>
+        Identificadores<br>
+        <input type="checkbox" name="identificadores" value="cabello">Productos para el cabello<br>
+        <input type="checkbox" name="identificadores" value="rostro">Productos para el rostro<br>
+        <input type="checkbox" name="identificadores" value="otos">Otros <br><br>
+        Ciudad  <br>
+        <select  name="ciudad" class="ancho bordes"  >
+         <option value="pitalito">Pitalito</option>
+         <option value="popayan">Popayán</option>
+         <option value="cali">Cali</option>
+         <option value="armenia">Armenia </option>
+         <option value="naiva">Neiva</option>
+         <option value="bogota">Bogotá</option>
+         <option value="medellin">Medellin</option>
+         <option value="barranquilla">Barranquilla</option>
+         <option value="cartagena">Cartagena</option>
+         <option value="ibague">Ibague</option>
+         <var> <option value="manizales">Manizales</option></var>
+         </select>
+        </fieldset>
+         <br><br>
+         <input  type="submit" value="ENVIAR">
+
+    </form>
+</body>
+</html>

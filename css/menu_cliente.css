@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:verdana ;
+}
+.page-content{
+    margin: 10px auto 10px;
+    width: 95%;
+    gap: 15px;
+    display: grid;
+ 
+}
+.contenido span{
+    border: darkgoldenrod;
+}
+.container{
+    position: fixed;
+    width: 1200px;
+    background: white;
+    max-width: 10px auto;
+}
+.superior{
+    background: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+}
+.menu{
+    float: right;
+    padding: 35px;
+    
+   
+}
+.menu-1 li{
+    list-style: none;
+    float: right;
+
+}
+.menu-1 li a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.cuerpo{
+    max-width: 1250px;
+    width: 100%;
+    display: grid;
+    margin: 5em auto;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.caja{
+    float:left;
+    display: grid;
+    padding: 0;
+ 
+    /*gap: 10px;*/
+   /* grid-template-columns: repeat(3, 1fr);*/
+   
+}
+
+.efecto:hover{
+    opacity: 0.9;
+    cursor:pointer ;
+}
+.contenido{
+    padding: 15px;
+    text-align: justify;
+}
+
+.slider{
+    width: 100%;
+}
+.subtitulo img{
+    width: 100%;
+}
+.contenido span {
+    z-index: -5;
+    position: absolute;
+    padding: 0em 0 0 3em;
+    margin-bottom: 1em;
+    border-bottom: 3px goldenrod solid;
+}
+
+@media screen and (max-width: 850px){
+    .cuerpo{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 450px){
+    .cuerpo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

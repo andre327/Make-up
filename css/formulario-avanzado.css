@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(38, 71, 84);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+fieldset{
+    width: 43%;
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.box-formulario{
+    width: 80%;
+    display: block;
+    margin: 25px auto;
+}
+.controls{
+    margin-bottom: 1.3em;
+    font-size: 1.2em;
+    color: black;
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    background: none;
+}
+.controls-t-area,.controls-check{
+    font-size: 1em;
+    margin-bottom: .7em;
+    background-color:rgb(38, 71, 84);
+    color: whitesmoke;
+}
+::placeholder{
+    color: rgb(225, 225, 225), .5;
+
+}
+.controls-button{
+    margin-bottom: 1.3em;
+    background: rgb(50, 149, 91);
+    width: 100%;
+    height: 1.5em;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.controls-button:hover{
+    transform: translateY(-3px);
+    background-color:rgb(38, 71, 84);
+}
+@media only screen and (max-width:1060px){
+    fieldset{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:620px){
+    fieldset{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:520px){
+    fieldset{
+        width: 90%;
+    }
+    .controls{
+        width: 90%;
+    }
+    .controls-t-area{
+        width: 250%;
+    }
+    .box-formulario{
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    fieldset{
+        width: 90%;
+    }
+    .controls{
+        width: 90%;
+    }
+    .controls-t-area{
+        width: 200%;
+    }
+    .box-formulario{
+        width: 96%;
+    }
+}

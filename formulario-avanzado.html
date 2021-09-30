@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario-avanzado.css">
+    <title>Formulario Avanzado</title>
+</head>
+<body>
+    <h1>Citas Medicas</h1>
+    <form >
+        <fieldset>
+            <div class="box-formulario">
+                <input class="controls" type="text " name="nombres" placeholder="Ingresar su(s) Nombres"><br>
+                <input class="controls" type="text " name="nombres" placeholder="Ingresar su(s) Apellidos"><br>
+                <label> Observaciones</label><br>
+                <textarea class="controls-t-area" name="observaciones" id="" cols="30" rows="5" maxlength="200" placeholder="Observaciones (Maxi 200 caracteres)"></textarea><br>
+                <label> Ver Dias disponibles</label><br>
+                <label> <input class="controls-check" type="checkbox" value="lunes">Lunes </label><br>
+                <label> <input class="controls-check" type="checkbox" value="martes">Martes </label><br>
+                <label> <input class="controls-check" type="checkbox" value="miercoles">Miercoles </label><br>
+                <label> <input class="controls-check" type="checkbox" value="jueves">Jueves </label><br>
+                <label> <input class="controls-check" type="checkbox" value="viernes">Viernes </label><br><br>
+                <label> IPS de Atención</label><br><br>
+                <label> <input class="controls-check" type="radio" value="IPS">IPS Centro </label><br>
+                <label> <input class="controls-check" type="radio" value="IPS">IPS Agua Blanca </label><br>
+                <label> <input class="controls-check" type="radio" value="IPS">IPS Calamo </label><br>
+                <label> <input class="controls-check" type="radio" value="IPS">IPS Solarte </label><br><br>
+                <label> Seleccione un Medico</label><br><br>
+                <select class="controls" name="medico" >
+                    <option value="liliana-gomez">Liliana Gomez</option>
+                    <option value="jhon-alex-castaño">Jhon Alex Castaño</option>
+                    <option value="kevin-ijaji">Kevin Ijaji</option>
+                    <option value="ashley-jaramillo">Ashely Jaramillo</option>
+                </select><br><br>
+                <input class="controls-button" type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

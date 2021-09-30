@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+
+}
+nav li{
+  line-height: 2.5em;
+  position: relative;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 3em;
+    display: block;
+
+
+}
+.menu{
+    width: 100%;
+    background: darkcyan;
+    display: table;
+}
+.menu ul{
+    position: absolute;
+}
+
+.menu > li {
+    float: left;
+    width: 170px;
+}
+
+nav li li{
+    width: 220px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: thistle;
+}
+nav li:hover > ul > li {
+    overflow: visible;
+    max-width: 100%;
+}
+
+.menu >li >ul{
+    top: 102%;
+}

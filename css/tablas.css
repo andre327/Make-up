@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    font-size: 'Akaya Telivigala', cursive;
+}
+
+table{
+        width: 700px;
+        margin: 0 auto;
+        
+        text-align: center;
+    
+    }
+
+   table, th,tr td {
+
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 7px;
+    border: none;
+    
+ 
+    }
+    td{
+        padding: 20px;
+        text-align: center;
+        margin-right:20px ;
+        margin-left: 20px;
+      
+        
+    }
+
+    .head-horizontal-modAncho{
+        width: 150;
+    }
+
+    th{
+        color: white;
+
+        
+    }
+
+    th.head1{
+        background-color:Salmon;
+        padding: 20px;
+        padding-bottom: 20px;
+        font-size: 'Akaya Telivigala', cursive;
+        border: none;
+
+    }
+
+    th.head2{
+        background-color:Salmon;
+        padding: 20px;
+        padding-bottom: 20px;
+        border: none;
+
+    }
+
+    th.head3{
+        background-color:Salmon;
+        padding: 20px;
+        padding-bottom: 20px;
+        border: none;
+
+    }
+
+    td.color{
+        background: DarkSalmon;
+        border: none;
+    }
+
+    td.letra{
+        font-size:  cursive;
+    }
+    
+      
+   
+  
+    
+  
+   

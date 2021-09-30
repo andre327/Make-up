@@ -1,0 +1,60 @@
+.col-6{
+    background: darkgoldenrod;
+    color: black;
+}
+div.row, .div.contenedores{
+    border: 1px solid rgb(0, 0, 0,0.562)
+}
+.col-md{
+    background-color: gold;
+    color: white;
+}
+.row >[class^=".col-"]{
+    background: darkgoldenrod;
+}
+.contenedores > [class^="container"]{
+    background: grey;
+    height: 50px;
+    color: white;
+}
+.formulario{
+    margin: 30px auto;
+    padding: 15px;
+}
+.formulario input[type="text"]{
+    padding: 15px;
+    margin: 5px 15px 15px 15px;
+    width: 85%;
+    box-sizing:border-box ;
+}
+.form-select{
+    padding: 15px;
+    margin: 5px 15px 15px 15px;
+    width: 85%;
+    box-sizing:border-box ;
+}
+.form-check-input{
+    margin-left: 10px;
+}
+.style-switch{
+    margin: 0 auto;
+    border: none;
+
+}
+.style-switch div{
+    border: none;
+}
+.style-switch .form-check-input{
+    font-size: 2em;
+
+}
+.style-switch .form-switch{
+    margin-bottom: 30px;
+   
+}
+.label-flotante{
+    margin: 0 auto;
+}
+.form-floating{
+    border: none;
+}

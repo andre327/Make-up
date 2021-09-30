@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container-flex-1 {
+    display: flex;
+    background-color: rgba(119, 36, 187, 0.897);
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.item-flex {
+    background-color: rgba(57, 11, 184, 0.76);
+    color: whitesmoke;
+    font-size: 1.5em;
+    height: 200px;
+  
+}
+.item-1, .item-5, .item-8{
+    width: 150px;
+}
+.item-2, .item-4, .item-7{
+    width: 90px;
+}
+.item-3, .item-6, .item-9, .item-10{
+    width:200px ;
+}
